@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/constants-float32-cbrt-eps",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Cube root of single-precision floating-point epsilon.",
   "license": "Apache-2.0",
   "author": {
