@@ -24,30 +24,14 @@ limitations under the License.
 
 > [Cube root][@stdlib/math/base/special/cbrt] of [single-precision floating-point epsilon][@stdlib/constants/float32/eps].
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/constants-float32-cbrt-eps
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var FLOAT32_CBRT_EPS = require( '@stdlib/constants-float32-cbrt-eps' );
+import FLOAT32_CBRT_EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-cbrt-eps@deno/mod.js';
 ```
 
 #### FLOAT32_CBRT_EPS
@@ -70,11 +54,11 @@ var bool = ( FLOAT32_CBRT_EPS === 0.004921566694974899 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var abs = require( '@stdlib/math-base-special-abs' );
-var max = require( '@stdlib/math-base-special-max' );
-var float64ToFloat32 = require( '@stdlib/number-float64-base-to-float32' );
-var randu = require( '@stdlib/random-base-randu' );
-var FLOAT32_CBRT_EPS = require( '@stdlib/constants-float32-cbrt-eps' );
+import abs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@deno/mod.js';
+import max from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-max@deno/mod.js';
+import float64ToFloat32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-to-float32@deno/mod.js';
+import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
+import FLOAT32_CBRT_EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-cbrt-eps@deno/mod.js';
 
 var bool;
 var a;
@@ -105,57 +89,7 @@ for ( i = 0; i < 100; i++ ) {
 
 <!-- C interface documentation. -->
 
-* * *
 
-<section class="c">
-
-## C APIs
-
-<!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
-
-<section class="intro">
-
-</section>
-
-<!-- /.intro -->
-
-<!-- C usage documentation. -->
-
-<section class="usage">
-
-### Usage
-
-```c
-#include "stdlib/constants/float32/cbrt_eps.h"
-```
-
-#### STDLIB_CONSTANT_FLOAT32_CBRT_EPS
-
-Macro for the [cube root][@stdlib/math/base/special/cbrt] of [single-precision floating-point epsilon][@stdlib/constants/float32/eps].
-
-</section>
-
-<!-- /.usage -->
-
-<!-- C API usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
-
-<section class="notes">
-
-</section>
-
-<!-- /.notes -->
-
-<!-- C API usage examples. -->
-
-<section class="examples">
-
-</section>
-
-<!-- /.examples -->
-
-</section>
-
-<!-- /.c -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
@@ -182,7 +116,7 @@ Macro for the [cube root][@stdlib/math/base/special/cbrt] of [single-precision f
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -242,15 +176,15 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-float32-cbrt-eps/main/LICENSE
 
-[@stdlib/math/base/special/cbrt]: https://github.com/stdlib-js/math-base-special-cbrt
+[@stdlib/math/base/special/cbrt]: https://github.com/stdlib-js/math-base-special-cbrt/tree/deno
 
 <!-- <related-links> -->
 
-[@stdlib/constants/float32/eps]: https://github.com/stdlib-js/constants-float32-eps
+[@stdlib/constants/float32/eps]: https://github.com/stdlib-js/constants-float32-eps/tree/deno
 
-[@stdlib/constants/float32/sqrt-eps]: https://github.com/stdlib-js/constants-float32-sqrt-eps
+[@stdlib/constants/float32/sqrt-eps]: https://github.com/stdlib-js/constants-float32-sqrt-eps/tree/deno
 
-[@stdlib/constants/float64/cbrt-eps]: https://github.com/stdlib-js/constants-float64-cbrt-eps
+[@stdlib/constants/float64/cbrt-eps]: https://github.com/stdlib-js/constants-float64-cbrt-eps/tree/deno
 
 <!-- </related-links> -->
 
